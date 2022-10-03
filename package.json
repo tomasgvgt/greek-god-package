@@ -1,0 +1,18 @@
+{
+  "name": "greek-god",
+  "version": "1.0.0",
+  "description": "Package that returns a random Titan or Olympic god from greek mithology",
+  "main": "src/index.js",
+  "scripts": {},
+  "bin": {
+    "greek-god": "./bin/global.js"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "Tomas Gomez",
+  "license": "MIT",
+  "preferGLobal": true
+}

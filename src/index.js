@@ -1,0 +1,51 @@
+const gods = [
+    "Aphrodite",
+    "Apollo",
+    "Ares",
+    "Artemis",
+    "Athena",
+    "Hades",
+    "Hephaestus", 
+    "Hera",
+    "Hermes",
+    "Hestia",
+    "Poseidon",
+    "Zeus",
+    "Asteria",
+    "Astraeus",
+    "Atlas",
+    "Clymene",
+    "CoeusCrius",
+    "Cronus",
+    "Dione",
+    "Eos",
+    "Epimetheus",
+    "Eurybia ",
+    "Eurynome ",
+    "Hyperion", 
+    "Iapetus", 
+    "Lelantos ",
+    "Leto ",
+    "Menoetius", 
+    "Metis ",
+    "Mnemosyne ",
+    "Oceanus", 
+    "Ophion ",
+    "Pallas ",
+    "Perses ",
+    "Phoebe ",
+    "Prometheus",
+    "Rhea ",
+    "Selene ",
+    "Styx ",
+    "Tethys", 
+    "Thea",
+    "Themis",
+]
+
+function randomGods(){
+    return gods[Math.floor(Math.random() * gods.length)]
+}
+
+
+module.exports = {randomGods};
