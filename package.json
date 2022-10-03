@@ -1,11 +1,11 @@
 {
   "name": "greek-god",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package that returns a random Titan or Olympic god from greek mithology",
   "main": "src/index.js",
   "scripts": {},
   "bin": {
-    "greek-god": "./bin/global.js"
+    "greek-god": "bin/global.js"
   },
   "keywords": [
     "javascript",
@@ -14,5 +14,13 @@
   ],
   "author": "Tomas Gomez",
   "license": "MIT",
-  "preferGLobal": true
+  "preferGLobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasgvgt/greek-god-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomasgvgt/greek-god-package/issues"
+  },
+  "homepage": "https://github.com/tomasgvgt/greek-god-package#readme"
 }
