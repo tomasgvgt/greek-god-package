@@ -1,6 +1,6 @@
 {
   "name": "greek-god",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Package that returns a random Titan or Olympic god from greek mithology",
   "main": "src/index.js",
   "scripts": {},
